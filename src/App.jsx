@@ -1,5 +1,7 @@
 import Banner from "./components/Banner"
+import Bottom from "./components/Bottom"
 import Counter from "./components/Counter"
+import Footer from "./components/Footer"
 import Header from "./components/Header"
 import List from "./components/List"
 import Loading from "./components/Loading"
@@ -31,6 +33,8 @@ function App() {
     <List/>
     <Readback/>
     <See/>
+    <Footer/>
+    <Bottom/>
     </>
   )
 }

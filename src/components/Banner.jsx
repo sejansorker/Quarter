@@ -18,13 +18,11 @@ function SampleNextArrow(props) {
   );
 }
 function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
+  const { onClick } = props;
   return (
-    <div className="h-12 w-12 bg-white hover:bg-comon hover:text-white cursor-pointer z-10 text-comon duration-300 absolute top-90 -left-30  flex justify-center items-center"
-
+    <div className="h-12 w-12  bg-white hover:bg-comon hover:text-white cursor-pointer z-10 text-comon duration-300 absolute top-90 -left-30  flex justify-center items-center"
       onClick={onClick}>
       <FaArrowLeftLong />
-
     </div>
   );
 }
@@ -40,7 +38,6 @@ const Banner = () => {
   };
   return (
     <>
-
       <div className="bg-[url(/ban2.png)] bg-cover bg-center w-full mb-0 relative ">
         <Container >
           <Slider {...settings}>

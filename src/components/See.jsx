@@ -3,7 +3,7 @@ import Container from './Container'
 
 const See = () => {
     return (
-        <div className='mt-80 pb-25'>
+        <div className='mt-80 pb-50'>
             <Container>
                 <div className="text-center w-3/5 mx-auto">
                     <button className='py-1 px-6 text-[16px] text-comon font-bold font-nuni bg-[#fb52522f] rounded-[30px]'>News & Blogs</button>
@@ -11,7 +11,7 @@ const See = () => {
                 </div>
                 <div className="flex items-center gap-x-5">
                     <div className="w-1/3">
-                        
+
                         <div className="bg-[url(/one.png)] bg-cover bg-center bg-no-repeat pt-[110px] pr-24.5 pb-7 pl-6.5 relative">
                             <div className="bg-[#00000080] absolute inset-0 z-0"></div>
                             <div className="relative z-20">
@@ -49,7 +49,7 @@ const See = () => {
 
                     </div>
                     <div className="w-1/3">
-                    <div className="bg-[url(/three.png)] bg-cover bg-center bg-no-repeat  pt-[358px] pr-[76px] pb-[31px] pl-6.5 relative">
+                        <div className="bg-[url(/three.png)] bg-cover bg-center bg-no-repeat  pt-[358px] pr-[76px] pb-[31px] pl-6.5 relative">
                             <div className="bg-[#00000080] absolute inset-0 z-0"></div>
                             <div className="relative z-20">
                                 <div className="flex items-center gap-3 pb-4">
@@ -69,7 +69,7 @@ const See = () => {
                         </div>
                     </div>
                     <div className="w-1/3">
-                    <div className="bg-[url(/four.png)] bg-cover bg-center bg-no-repeat  pt-[358px] pr-[76px] pb-[31px] pl-6.5 relative">
+                        <div className="bg-[url(/four.png)] bg-cover bg-center bg-no-repeat  pt-[358px] pr-[76px] pb-[31px] pl-6.5 relative">
                             <div className="bg-[#00000080] absolute inset-0 z-0"></div>
                             <div className="relative z-20">
                                 <div className="flex items-center gap-3 pb-4">
@@ -88,7 +88,7 @@ const See = () => {
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </Container>
         </div>

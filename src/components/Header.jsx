@@ -29,7 +29,7 @@ const Header = () => {
                                 <FaVimeoV />
                             </div>
                             <div className="">
-                                <button className='px-6.5 py-3.5 bg-[#FF5A3C]'>Add Listings</button>
+                                <button className='px-6.5 py-3.5 bg-comon'>Add Listings</button>
                             </div>
                         </div>
                     </div>
