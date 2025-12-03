@@ -1,41 +1,31 @@
-import Banner from "./components/Banner"
-import Bottom from "./components/Bottom"
-import Counter from "./components/Counter"
-import Footer from "./components/Footer"
-import Header from "./components/Header"
-import List from "./components/List"
-import Loading from "./components/Loading"
-import Navbar from "./components/Navbar"
-import Our from "./components/Our"
-import Plan from "./components/Plan"
-import Propertise from "./components/Propertise"
-import Readback from "./components/Readback"
-import See from "./components/See"
-import Today from "./components/Today"
-import Vedio from "./components/Vedio"
 
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Layout from "./layout/Layout";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Property from "./pages/Property";
+import Blog from "./pages/Blog";
+import Pages from "./pages/Pages";
+import Contact from "./pages/Contact";
 
 function App() {
  
 
   return (
-    <>
-    <Header/>
-    <Navbar/>
-    <Banner/>
-    <Loading/>
-    <Counter/>
-    <Today/>
-    <Our/>
-    <Propertise/>
-    <Plan/>
-    <Vedio/>
-    <List/>
-    <Readback/>
-    <See/>
-    <Footer/>
-    <Bottom/>
-    </>
+   <>
+    <Router>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/property" element={<Property />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/pages" element={<Pages />} />
+          <Route path="/contact" element={<Contact />} />
+        </Route>
+      </Routes>
+    </Router>
+   </>
   )
 }
 
