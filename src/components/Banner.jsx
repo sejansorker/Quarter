@@ -12,9 +12,7 @@ function SampleNextArrow(props) {
       className="h-12 w-12 bg-white hover:bg-comon hover:text-white cursor-pointer z-10 text-comon duration-300 absolute top-90 -right-25 flex justify-center items-center"
       onClick={onClick} >
       <FaArrowRightLong />
-
     </div>
-
   );
 }
 function SamplePrevArrow(props) {

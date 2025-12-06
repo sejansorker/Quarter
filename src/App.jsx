@@ -7,6 +7,8 @@ import Property from "./pages/Property";
 import Blog from "./pages/Blog";
 import Pages from "./pages/Pages";
 import Contact from "./pages/Contact";
+import Propertydetails from "./pages/Propertydetails";
+
 
 function App() {
  
@@ -19,6 +21,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/property" element={<Property />} />
+          <Route path="/propertydetails" element={<Propertydetails />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/pages" element={<Pages />} />
           <Route path="/contact" element={<Contact />} />
