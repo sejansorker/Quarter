@@ -17,6 +17,9 @@ import P7 from "../assets/p7.png"
 import P8 from "../assets/p8.png"
 import Guru from "../assets/guru.png"
 import Comment from "../assets/comment.png"
+import Sada from "../assets/sada.png"
+import { CiStar } from 'react-icons/ci'
+import Lee from "../assets/lee1.png"
 function SampleNextArrow(props) {
     const { onClick } = props;
     return (
@@ -43,7 +46,7 @@ const Propertydetails = () => {
     };
     return (
         <div>
-            <div className='bg-[url(/a_banner.png)] bg-coveer bg-center py-[106px]'>
+            <div className='bg-[url(/a_banner.png)] bg-coveer bg-center py-26.5'>
                 <Container>
                     <div className="">
                         <h2 className='text-[#0A2C3D] text-[48px] font-pop font-bold pb-2'>Properties Details</h2>
@@ -68,15 +71,15 @@ const Propertydetails = () => {
             </div>
             <div className="bg-[#B4B4C2] mb-30">
                 <Container>
-                    <div className="w-[952px] mx-auto">
+                    <div className="w-238 mx-auto">
                         <Slider {...settings}>
-                            <div className=" mx-auto h-[503px]">
+                            <div className=" mx-auto h-126">
                                 <img className='w-full' src={For} alt="" />
                             </div>
-                            <div className=" mx-auto h-[503px]">
+                            <div className=" mx-auto h-126">
                                 <img className='w-full' src={Goo} alt="" />
                             </div>
-                            <div className=" mx-auto h-[503px]">
+                            <div className=" mx-auto h-126">
                                 <img className='w-full' src={Goo1} alt="" />
                             </div>
                         </Slider>
@@ -87,7 +90,7 @@ const Propertydetails = () => {
             </div>
             <div className="mb-49">
                 <Container>
-                    <div className="">
+                    <div className="flex gap-x-5">
                         <div className="w-2/3">
                             <div className="">
                                 <div className="flex items-center justify-between pb-8">
@@ -117,7 +120,7 @@ const Propertydetails = () => {
                                     <div className="py-12.5">
                                         <h4 className='text-[22px] relative after:absolute after:top-[7px] after:left-0 after:h-4.5 after:w-0.5 after:bg-comon  font-bold text-[#133344] font-pop pl-3  pb-6'>Property Detail</h4>
                                         <div className=" pl-10 bg-[#F4F4F8] flex items-center">
-                                            <ul className='py-10 pr-[141px]'>
+                                            <ul className='py-10 pr-35'>
                                                 <li className='text-[14px] pb-5.5 font-pop font-normal text-[#5C727D]'>Property ID: <span className='font-bold text-[#133344]'>HZ29</span></li>
                                                 <li className='text-[14px] pb-5.5 font-pop font-normal text-[#5C727D]'>Home Area: <span className='font-bold text-[#133344]'>120 sqft</span></li>
                                                 <li className='text-[14px] pb-5.5 font-pop font-normal text-[#5C727D]'>Rooms: <span className='font-bold text-[#133344]'>7</span></li>
@@ -346,7 +349,19 @@ const Propertydetails = () => {
                             </div>
                         </div>
                         <div className="w-1/3">
-
+                            <div className="">
+                                <div className="py-10 pl-12.5 pr-17.5 bg-white shadow-[0_0_30px_rgba(0,0,0,0.15)] flex justify-center">
+                                   <div className="text-center">
+                                    <div className="flex justify-center">
+                                         <img className='w-22.5 h-22.5' src={Lee} alt="" />
+                                    </div>
+                                     <h4 className='text-[22px] font-bold font-pop text-[#0A2C3D] pt-5'>Jehnny Rose</h4>
+                                     <h5 className='text-[12px] text-[#5C727D] font-nuni font-normal pb-2'>Traveller/Photographer</h5>
+                                     <p className='flex font-nuni font-normal items-center justify-center text-comon '><CiStar /> <CiStar /> <CiStar  /> <CiStar /> <span className='text-[#5C727D] text-[12px]'>(1 Review)</span></p>
+                                     <p className='text-[14px] text-[#5C727D] font-nuni font-normal pt-4 pb-9'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                                   </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </Container>
