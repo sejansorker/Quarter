@@ -4,7 +4,7 @@ import For from "../assets/for.png"
 import Goo from "../assets/goo.png"
 import Goo1 from "../assets/goo1.png"
 import Slider from 'react-slick';
-import { FaArrowLeftLong, FaArrowRightLong, FaCheck, FaFacebookF, FaGooglePlusG, FaInstagram, FaTwitter } from 'react-icons/fa6';
+import { FaArrowLeftLong, FaArrowRightLong, FaCheck, FaFacebookF, FaGooglePlusG, FaInstagram, FaTwitter, FaUser } from 'react-icons/fa6';
 import Zoom1 from "../assets/zoom1.png"
 import { IoLocation } from 'react-icons/io5'
 import P1 from "../assets/p1.png"
@@ -21,6 +21,8 @@ import Sada from "../assets/sada.png"
 import { CiStar } from 'react-icons/ci'
 import Lee from "../assets/lee1.png"
 import { IoIosSearch } from 'react-icons/io'
+import { MdEmail } from 'react-icons/md'
+import { BiSolidMessageRounded } from 'react-icons/bi'
 function SampleNextArrow(props) {
     const { onClick } = props;
     return (
@@ -352,36 +354,81 @@ const Propertydetails = () => {
                         <div className="w-1/3">
                             <div className="">
                                 <div className="py-10 pl-12.5 pr-17.5 bg-white shadow-[0_0_30px_rgba(0,0,0,0.15)] flex justify-center ">
-                                   <div className="text-center">
-                                    <div className="flex justify-center">
-                                         <img className='w-22.5 h-22.5' src={Lee} alt="" />
+                                    <div className="text-center">
+                                        <div className="flex justify-center">
+                                            <img className='w-22.5 h-22.5' src={Lee} alt="" />
+                                        </div>
+                                        <h4 className='text-[22px] font-bold font-pop text-[#0A2C3D] pt-5'>Jehnny Rose</h4>
+                                        <h5 className='text-[12px] text-[#5C727D] font-nuni font-normal pb-2'>Traveller/Photographer</h5>
+                                        <p className='flex font-nuni font-normal items-center justify-center text-comon '><CiStar /> <CiStar /> <CiStar /> <CiStar /> <span className='text-[#5C727D] text-[12px]'>(1 Review)</span></p>
+                                        <p className='text-[14px] text-[#5C727D] font-nuni font-normal pt-4 pb-9'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                                        <div className="flex items-center gap-x-6 justify-center">
+                                            <div className="h-7 w-7 bg-white hover:bg-comon flex justify-center items-center rounded-full shadow-[0_0_20px_rgba(0,0,0,0.15)] text-black hover:text-white duration-200">
+                                                <FaFacebookF />
+                                            </div>
+                                            <div className="h-7 w-7 bg-white hover:bg-comon flex justify-center items-center rounded-full shadow-[0_0_20px_rgba(0,0,0,0.15)] text-black hover:text-white duration-200">
+                                                <FaTwitter />
+                                            </div>
+                                            <div className="h-7 w-7 bg-white hover:bg-comon flex justify-center items-center rounded-full shadow-[0_0_20px_rgba(0,0,0,0.15)] text-black hover:text-white duration-200">
+                                                <FaInstagram />
+                                            </div>
+                                            <div className="h-7 w-7 bg-white hover:bg-comon flex justify-center items-center rounded-full shadow-[0_0_20px_rgba(0,0,0,0.15)] text-black hover:text-white duration-200">
+                                                <FaGooglePlusG />
+                                            </div>
+                                        </div>
                                     </div>
-                                     <h4 className='text-[22px] font-bold font-pop text-[#0A2C3D] pt-5'>Jehnny Rose</h4>
-                                     <h5 className='text-[12px] text-[#5C727D] font-nuni font-normal pb-2'>Traveller/Photographer</h5>
-                                     <p className='flex font-nuni font-normal items-center justify-center text-comon '><CiStar /> <CiStar /> <CiStar  /> <CiStar /> <span className='text-[#5C727D] text-[12px]'>(1 Review)</span></p>
-                                     <p className='text-[14px] text-[#5C727D] font-nuni font-normal pt-4 pb-9'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
-                                     <div className="flex items-center gap-x-6 justify-center">
-                                        <div className="h-7 w-7 bg-white hover:bg-comon flex justify-center items-center rounded-full shadow-[0_0_20px_rgba(0,0,0,0.15)] text-black hover:text-white duration-200">
-                                            <FaFacebookF />
-                                        </div>
-                                        <div className="h-7 w-7 bg-white hover:bg-comon flex justify-center items-center rounded-full shadow-[0_0_20px_rgba(0,0,0,0.15)] text-black hover:text-white duration-200">
-                                            <FaTwitter />
-                                        </div>
-                                        <div className="h-7 w-7 bg-white hover:bg-comon flex justify-center items-center rounded-full shadow-[0_0_20px_rgba(0,0,0,0.15)] text-black hover:text-white duration-200">
-                                            <FaInstagram />
-                                        </div>
-                                        <div className="h-7 w-7 bg-white hover:bg-comon flex justify-center items-center rounded-full shadow-[0_0_20px_rgba(0,0,0,0.15)] text-black hover:text-white duration-200">
-                                            <FaGooglePlusG />
-                                        </div>
-                                     </div>
-                                   </div>
                                 </div>
                                 <div className="py-9.5 px-6 my-6.5 bg-white shadow-[0_0_30px_rgba(0,0,0,0.15)]">
-                                  <h3 className='text-[#133344] relative font-bold font-pop after:absolute after:top-0 after:-left-3 after:h-5 after:w-0.5 after:bg-comon pb-4'>Search Bar</h3>
-                                  <div className="relative">
-                                    <input className='border-[1px]  border-[#5c727d9c] w-full py-3.5 pl-3.5 text-[#5C727D] font-nuni font-normal text-[14px] outline-0' type="text" placeholder='Search Blogs'/>
-                                    <button className='w-[69px] h-12.5 bg-comon flex text-white text-[20px] justify-center items-center absolute top-0 right-0 '><IoIosSearch /></button>
-                                  </div>
+                                    <h3 className='relative text-[#133344] text-[20px]  font-bold font-pop after:absolute after:top-0 after:-left-3 after:h-5 after:w-0.5 after:bg-comon pb-4'>Search Bar</h3>
+                                    <div className="relative">
+                                        <input className='border-[1px]  border-[#5c727d9c] w-full py-3.5 pl-3.5 text-[#5C727D] font-nuni font-normal text-[14px] outline-0' type="text" placeholder='Search Blogs' />
+                                        <button className='w-[69px] h-12.5 bg-comon flex text-white text-[20px] justify-center items-center absolute top-0 right-0 '><IoIosSearch /></button>
+                                    </div>
+                                </div>
+                                <div className="pt-11 pb-12 px-6 bg-[#F4F4F8]">
+                                    <h3 className='text-[#133344] text-[20px]  font-bold font-pop pb-7'>Drop Messege For Book</h3>
+                                    <form action="">
+                                        <div className="relative mb-5">
+                                            <input
+                                                type="text"
+                                                required
+                                                className="peer w-full py-3 pl-3 bg-white outline-0"
+                                            />
+                                            <label
+                                                className=" absolute left-2 top-1/2 -translate-y-1/2 flex items-center gap-2 text-gray-400 pointer-events-none peer-focus:hidden peer-valid:hidden "
+                                            >
+                                                <FaUser />
+                                                Your Name*
+                                            </label>
+                                        </div>
+                                        <div className="relative mb-5">
+                                            <input
+                                                type="text"
+                                                required
+                                                className="peer w-full py-3 pl-3 bg-white outline-0"
+                                            />
+                                            <label
+                                                className=" absolute left-2 top-1/2 -translate-y-1/2 flex items-center gap-2 text-gray-400 pointer-events-none peer-focus:hidden peer-valid:hidden "
+                                            >
+                                               <MdEmail />
+                                                Your Email*
+                                            </label>
+                                        </div>
+                                        <div className="relative mb-7.5">
+                                            <input
+                                                type="text"
+                                                required
+                                                className="peer w-full pt-3 pb-25 pl-3 bg-white outline-0"
+                                            />
+                                            <label
+                                                className=" absolute left-2 top-2  flex items-center gap-2 text-gray-400 pointer-events-none peer-focus:hidden peer-valid:hidden "
+                                            >
+                                               <BiSolidMessageRounded /> 
+                                                 Write Messege
+                                            </label>
+                                        </div>
+                                        
+                                    </form>
                                 </div>
                             </div>
                         </div>
