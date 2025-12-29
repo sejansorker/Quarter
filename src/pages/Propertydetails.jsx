@@ -119,7 +119,8 @@ const Propertydetails = () => {
                                 </div>
                                 <div className=" ">
                                     <h4 className='text-[22px] relative after:absolute after:top-[7px] after:left-0 after:h-4.5 after:w-0.5 after:bg-comon  font-bold text-[#133344] font-pop pl-3'>Description</h4>
-                                    <p className='pt-4.5 text-[#5C727D] font-nuni font-normal leading-8'>Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.</p>
+                                    <p className='pt-4.5 pb-9 text-[#5C727D] font-nuni font-normal leading-7.5'>Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.</p>
+                                    <p className='text-[#5C727D] font-nuni font-normal leading-7'>To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room.</p>
                                     <div className="py-12.5">
                                         <h4 className='text-[22px] relative after:absolute after:top-[7px] after:left-0 after:h-4.5 after:w-0.5 after:bg-comon  font-bold text-[#133344] font-pop pl-3  pb-6'>Property Detail</h4>
                                         <div className=" pl-10 bg-[#F4F4F8] flex items-center">
@@ -359,9 +360,9 @@ const Propertydetails = () => {
                                             <img className='w-22.5 h-22.5' src={Lee} alt="" />
                                         </div>
                                         <h4 className='text-[22px] font-bold font-pop text-[#0A2C3D] pt-5'>Jehnny Rose</h4>
-                                        <h5 className='text-[12px] text-[#5C727D] font-nuni font-normal pb-2'>Traveller/Photographer</h5>
+                                        <h5 className='text-[12px] text-[#5C727D] font-nuni font-normal pb-2.5'>Traveller/Photographer</h5>
                                         <p className='flex font-nuni font-normal items-center justify-center text-comon '><CiStar /> <CiStar /> <CiStar /> <CiStar /> <span className='text-[#5C727D] text-[12px]'>(1 Review)</span></p>
-                                        <p className='text-[14px] text-[#5C727D] font-nuni font-normal pt-4 pb-9'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                                        <p className='text-[14px] text-[#5C727D] font-nuni font-normal pt-4 pb-9 leading-6.5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
                                         <div className="flex items-center gap-x-6 justify-center">
                                             <div className="h-7 w-7 bg-white hover:bg-comon flex justify-center items-center rounded-full shadow-[0_0_20px_rgba(0,0,0,0.15)] text-black hover:text-white duration-200">
                                                 <FaFacebookF />
@@ -379,13 +380,13 @@ const Propertydetails = () => {
                                     </div>
                                 </div>
                                 <div className="py-9.5 px-6 my-6.5 bg-white shadow-[0_0_30px_rgba(0,0,0,0.15)]">
-                                    <h3 className='relative text-[#133344] text-[20px]  font-bold font-pop after:absolute after:top-0 after:-left-3 after:h-5 after:w-0.5 after:bg-comon pb-4'>Search Bar</h3>
+                                    <h3 className='relative text-[#133344] text-[20px]  font-bold font-pop after:absolute after:top-0.5 after:left-0 after:h-5 after:w-0.5 after:bg-comon pb-4 pl-3'>Search Bar</h3>
                                     <div className="relative">
                                         <input className='border-[1px]  border-[#5c727d9c] w-full py-3.5 pl-3.5 text-[#5C727D] font-nuni font-normal text-[14px] outline-0' type="text" placeholder='Search Blogs' />
                                         <button className='w-[69px] h-12.5 bg-comon flex text-white text-[20px] justify-center items-center absolute top-0 right-0 '><IoIosSearch /></button>
                                     </div>
                                 </div>
-                                <div className="pt-11 pb-12 px-6 bg-[#F4F4F8]">
+                                <div className="pt-11 pb-12 px-6 mb-7 bg-[#F4F4F8]">
                                     <h3 className='text-[#133344] text-[20px]  font-bold font-pop pb-7'>Drop Messege For Book</h3>
                                     <form action="">
                                         <div className="relative mb-5">
@@ -423,8 +424,47 @@ const Propertydetails = () => {
                                                 Write Message
                                             </label>
                                         </div>
-
+                                          <button className='text-[16px] text-white bg-comon font-normal font-nuni w-full py-3 cursor-pointer'>Send Messege</button>
                                     </form>
+                                </div>
+                                <div className="py-9.5 pr-14 pl-6 bg-white shadow-[0_0_30px_rgba(0,0,0,0.15)]">
+                                    <h3 className='relative text-[#133344] text-[20px]  font-bold font-pop after:absolute after:top-0.5 after:left-0 after:h-5 after:w-0.5 after:bg-comon pb-4 pl-3'>Latest Properties</h3>
+                                    <div className="flex items-center gap-x-5.5 pb-[17px]">
+                                        <div className="">
+                                            <img className='w-24 h-20.5' src={Goo} alt="" />
+                                        </div>
+                                        <div className="">
+                                            <h5 className='font-bold font-nuni text-[14px] text-comon'>$320,000</h5>
+                                             <h4 className='font-bold font-nuni text-[14px] text-[#133344] pt-1'>Neue Dimensionen im Schrägdach</h4>
+                                        </div>
+                                    </div>
+                                    <div className="flex items-center gap-x-5.5 pb-[17px]">
+                                        <div className="">
+                                            <img className='w-24 h-20.5' src={Goo1} alt="" />
+                                        </div>
+                                        <div className="">
+                                            <h5 className='font-bold font-nuni text-[14px] text-comon'>$750,000</h5>
+                                             <h4 className='font-bold font-nuni text-[14px] text-[#133344] pt-1'>Langs Beach House</h4>
+                                        </div>
+                                    </div>
+                                    <div className="flex items-center gap-x-5.5 pb-[17px]">
+                                        <div className="">
+                                            <img className='w-24 h-20.5' src={Goo} alt="" />
+                                        </div>
+                                        <div className="">
+                                            <h5 className='font-bold font-nuni text-[14px] text-comon'>$320,000</h5>
+                                             <h4 className='font-bold font-nuni text-[14px] text-[#133344] pt-1'>Eaton Garth Penthouse</h4>
+                                        </div>
+                                    </div>
+                                    <div className="flex items-center gap-x-5.5 ">
+                                        <div className="">
+                                            <img className='w-24 h-20.5' src={Goo1} alt="" />
+                                        </div>
+                                        <div className="">
+                                            <h5 className='font-bold font-nuni text-[14px] text-comon'>$580,000</h5>
+                                             <h4 className='font-bold font-nuni text-[14px] text-[#133344] pt-1'>Neue Dimensionen im Schrägdach</h4>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
