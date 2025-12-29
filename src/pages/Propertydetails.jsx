@@ -410,24 +410,20 @@ const Propertydetails = () => {
                                             <label
                                                 className=" absolute left-2 top-1/2 -translate-y-1/2 flex items-center gap-2 text-gray-400 pointer-events-none peer-focus:hidden peer-valid:hidden "
                                             >
-                                               <MdEmail />
+                                                <MdEmail />
                                                 Your Email*
                                             </label>
                                         </div>
                                         <div className="relative mb-7.5">
-                                            <input
-                                                type="text"
-                                                required
-                                                className="peer w-full pt-3 pb-25 pl-3 bg-white outline-0"
-                                            />
-                                            <label
-                                                className=" absolute left-2 top-2  flex items-center gap-2 text-gray-400 pointer-events-none peer-focus:hidden peer-valid:hidden "
+                                            <textarea  required  rows="4"  className="peer w-full pt-4 pb-2 pl-3 bg-white outline-0 resize-none"
+                                            ></textarea>
+                                            <label className="absolute left-2 top-2 flex  items-center gap-2 text-gray-400 pointer-events-none  peer-focus:hidden peer-valid:hidden"
                                             >
-                                               <BiSolidMessageRounded /> 
-                                                 Write Messege
+                                                <BiSolidMessageRounded />
+                                                Write Message
                                             </label>
                                         </div>
-                                        
+
                                     </form>
                                 </div>
                             </div>
