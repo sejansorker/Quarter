@@ -443,8 +443,8 @@ const Propertydetails = () => {
                                             <img className='w-24 h-20.5' src={Goo1} alt="" />
                                         </div>
                                         <div className="">
-                                            <h5 className='font-bold font-nuni text-[14px] text-comon'>$750,000</h5>
-                                             <h4 className='font-bold font-nuni text-[14px] text-[#133344] pt-1'>Langs Beach House</h4>
+                                            <h5 className='font-bold font-nuni text-[14px] text-comon'>$330,000</h5>
+                                             <h4 className='font-bold font-nuni text-[14px] text-[#133344] pt-1'>Neue Dimensionen im Schrägdach</h4>
                                         </div>
                                     </div>
                                     <div className="flex items-center gap-x-5.5 pb-[17px]">
@@ -452,8 +452,8 @@ const Propertydetails = () => {
                                             <img className='w-24 h-20.5' src={Goo} alt="" />
                                         </div>
                                         <div className="">
-                                            <h5 className='font-bold font-nuni text-[14px] text-comon'>$320,000</h5>
-                                             <h4 className='font-bold font-nuni text-[14px] text-[#133344] pt-1'>Eaton Garth Penthouse</h4>
+                                            <h5 className='font-bold font-nuni text-[14px] text-comon'>$350,000</h5>
+                                             <h4 className='font-bold font-nuni text-[14px] text-[#133344] pt-1'>Neue Dimensionen im Schrägdach</h4>
                                         </div>
                                     </div>
                                     <div className="flex items-center gap-x-5.5 ">
@@ -461,7 +461,7 @@ const Propertydetails = () => {
                                             <img className='w-24 h-20.5' src={Goo1} alt="" />
                                         </div>
                                         <div className="">
-                                            <h5 className='font-bold font-nuni text-[14px] text-comon'>$580,000</h5>
+                                            <h5 className='font-bold font-nuni text-[14px] text-comon'>$400,000</h5>
                                              <h4 className='font-bold font-nuni text-[14px] text-[#133344] pt-1'>Neue Dimensionen im Schrägdach</h4>
                                         </div>
                                     </div>
@@ -474,5 +474,4 @@ const Propertydetails = () => {
         </div>
     )
 }
-
 export default Propertydetails
