@@ -466,6 +466,24 @@ const Propertydetails = () => {
                                         </div>
                                     </div>
                                 </div>
+                                <div className="pt-10.5 my-6 pb-10 px-6 bg-white shadow-[0_0_30px_rgba(0,0,0,0.15)]">
+                                    <h3 className='relative text-[#133344] text-[20px]  font-bold font-pop after:absolute after:top-0.5 after:left-0 after:h-5 after:w-0.5 after:bg-comon pb-4 pl-3'>Top Catagories</h3>
+                                    <div className="mb-4  rounded-[5px] bg-[rgba(255,89,60,0.06)] py-2.5 pl-4.5 ">
+                                        <h5 className='text-comon text-[14px] font-nuni font-normal'>Apartment (14)</h5>
+                                    </div>
+                                    <div className="mb-4  rounded-[5px] bg-[rgba(255,89,60,0.06)] py-2.5 pl-4.5 ">
+                                        <h5 className='text-comon text-[14px] font-nuni font-normal'>Picture Stodio (14)</h5>
+                                    </div>
+                                    <div className="mb-4  rounded-[5px] bg-[rgba(255,89,60,0.06)] py-2.5 pl-4.5 ">
+                                        <h5 className='text-comon text-[14px] font-nuni font-normal'>Office (14)</h5>
+                                    </div>
+                                    <div className="mb-4  rounded-[5px] bg-[rgba(255,89,60,0.06)] py-2.5 pl-4.5 ">
+                                        <h5 className='text-comon text-[14px] font-nuni font-normal'>Luxary Vilas (14)</h5>
+                                    </div>
+                                    <div className=" rounded-[5px] bg-[rgba(255,89,60,0.06)] py-2.5 pl-4.5 ">
+                                        <h5 className='text-comon text-[14px] font-nuni font-normal'>Duplex House (14)</h5>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
