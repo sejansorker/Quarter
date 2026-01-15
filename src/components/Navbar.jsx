@@ -11,7 +11,6 @@ const Navbar = () => {
     <div className='shadow-[0_1px_1px_rgba(0,0,0,0.1)] sticky top-0 z-50 bg-white lg:py-7.5 '>
       <div className={`${show ? "": ""} lg:py-0 py-5`}>
         <Container>
-          
         <div className="lg:flex items-center   ">
           <div className="lg:w-1/3 w-full">
             <div className="">

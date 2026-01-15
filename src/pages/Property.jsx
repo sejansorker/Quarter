@@ -24,7 +24,7 @@ const Property = () => {
   const [gried, setGried] = useState("hello")
   return (
     <div>
-      <div className='bg-[url(/a_banner.png)] bg-coveer bg-center py-[106px]'>
+      <div className='bg-[url(/a_banner.png)] bg-coveer bg-center py-26.5'>
         <Container>
           <div className="">
             <h2 className='text-[#0A2C3D] text-[48px] font-pop font-bold pb-2'>Properties List</h2>
@@ -449,7 +449,8 @@ const Property = () => {
               </div>
               {gried == "hello" &&
                 <div className="flex justify-between gap-y-7.5 mb-15 flex-wrap">
-                  <div className="w-[48%]">
+                 <div className="w-[48%]">
+                 <Link to={"/propertydetails"}> 
                     <div className="shadow-2xl">
                       <img className='w-full' src={For} alt="" />
                       <div className="pl-5.5">
@@ -468,8 +469,10 @@ const Property = () => {
                         <h3 className='pt-2.5 pb-3 pl-5.5 text-[18px] text-comon font-pop font-bold'>$ 349,00/Month</h3>
                       </div>
                     </div>
+                  </Link>
                   </div>
                   <div className="w-[48%]">
+                    <Link to={"/propertydetails"}>
                     <div className="shadow-2xl">
                       <img className='w-full h-63' src={Goo} alt="" />
                       <div className="pl-5.5">
@@ -488,8 +491,10 @@ const Property = () => {
                         <h3 className='pt-2.5 pb-3 pl-5.5 text-[18px] text-comon font-pop font-bold'>$ 349,00/Month</h3>
                       </div>
                     </div>
+                    </Link>
                   </div>
                   <div className="w-[48%]">
+                    <Link to={"/propertydetails"}>
                     <div className="shadow-2xl">
                       <img className='w-full h-63' src={Goo1} alt="" />
                       <div className="pl-5.5">
@@ -508,8 +513,10 @@ const Property = () => {
                         <h3 className='pt-2.5 pb-3 pl-5.5 text-[18px] text-comon font-pop font-bold'>$ 349,00/Month</h3>
                       </div>
                     </div>
+                    </Link>
                   </div>
                   <div className="w-[48%]">
+                    <Link to={"/propertydetails"}>
                     <div className="shadow-2xl">
                       <img className='w-full h-63' src={Goo2} alt="" />
                       <div className="pl-5.5">
@@ -528,8 +535,10 @@ const Property = () => {
                         <h3 className='pt-2.5 pb-3 pl-5.5 text-[18px] text-comon font-pop font-bold'>$ 349,00/Month</h3>
                       </div>
                     </div>
+                    </Link>
                   </div>
                   <div className="w-[48%]">
+                    <Link to={"/propertydetails"}>
                     <div className="shadow-2xl">
                       <img className='w-full h-63' src={Goo3} alt="" />
                       <div className="pl-5.5">
@@ -548,8 +557,10 @@ const Property = () => {
                         <h3 className='pt-2.5 pb-3 pl-5.5 text-[18px] text-comon font-pop font-bold'>$ 349,00/Month</h3>
                       </div>
                     </div>
+                    </Link>
                   </div>
                   <div className="w-[48%]">
+                    <Link to={"/propertydetails"}>
                     <div className="shadow-2xl">
                       <img className='w-full h-63' src={Goo4} alt="" />
                       <div className="pl-5.5">
@@ -568,12 +579,14 @@ const Property = () => {
                         <h3 className='pt-2.5 pb-3 pl-5.5 text-[18px] text-comon font-pop font-bold'>$ 349,00/Month</h3>
                       </div>
                     </div>
+                    </Link>
                   </div>
 
                 </div>
               }
               {gried == "hellolist" &&
                 <div className="">
+                  <Link to={"/propertydetails"}>
                   <div className="flex mb-7.5 py-4 pl-4 shadow-[0_0_30px_rgba(0,0,0,0.15)]">
                     <div className="h-[184px] w-[263px]  pr-8">
                       <img src={For} alt="" />
@@ -597,6 +610,8 @@ const Property = () => {
                       <img className='pl-3' src={Zoom1} alt="" />
                     </div>
                   </div>
+                    </Link>
+                    <Link to={"/propertydetails"}>
                   <div className="flex mb-7.5 py-4 pl-4 shadow-[0_0_30px_rgba(0,0,0,0.15)]">
                     <div className="h-[184px] w-[263px]  pr-8">
                       <img src={Goo} alt="" />
@@ -620,6 +635,8 @@ const Property = () => {
                       <img className='pl-3' src={Zoom1} alt="" />
                     </div>
                   </div>
+                    </Link>
+                    <Link to={"/propertydetails"}>
                   <div className="flex mb-7.5 py-4 pl-4 shadow-[0_0_30px_rgba(0,0,0,0.15)]">
                     <div className="h-[184px] w-[263px]  pr-8">
                       <img src={Goo1} alt="" />
@@ -643,6 +660,8 @@ const Property = () => {
                       <img className='pl-3' src={Zoom1} alt="" />
                     </div>
                   </div>
+                    </Link>
+                    <Link to={"/propertydetails"}>
                   <div className="flex mb-7.5 py-4 pl-4 shadow-[0_0_30px_rgba(0,0,0,0.15)]">
                     <div className="h-[184px] w-[263px]  pr-8">
                       <img src={Goo2} alt="" />
@@ -666,6 +685,8 @@ const Property = () => {
                       <img className='pl-3' src={Zoom1} alt="" />
                     </div>
                   </div>
+                    </Link>
+                    <Link to={"/propertydetails"}>
                   <div className="flex mb-7.5 py-4 pl-4 shadow-[0_0_30px_rgba(0,0,0,0.15)]">
                     <div className="h-[184px] w-[263px]  pr-8">
                       <img src={Goo3} alt="" />
@@ -689,6 +710,8 @@ const Property = () => {
                       <img className='pl-3' src={Zoom1} alt="" />
                     </div>
                   </div>
+                    </Link>
+                    <Link to={"/propertydetails"}>
                   <div className="flex mb-7.5 py-4 pl-4 shadow-[0_0_30px_rgba(0,0,0,0.15)]">
                     <div className="h-[184px] w-[263px]  pr-8">
                       <img src={Goo4} alt="" />
@@ -712,6 +735,7 @@ const Property = () => {
                       <img className='pl-3' src={Zoom1} alt="" />
                     </div>
                   </div>
+                    </Link>
                 </div>
               }
 
