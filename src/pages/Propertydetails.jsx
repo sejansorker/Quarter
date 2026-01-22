@@ -484,6 +484,9 @@ const Propertydetails = () => {
                                         <h5 className='text-comon text-[14px] font-nuni font-normal'>Duplex House (14)</h5>
                                     </div>
                                 </div>
+                                <div className="pt-8.5 pl-5.5 pr-6 pb-6 bg-white shadow-[0_0_30px_rgba(0,0,0,0.15)]">
+                                   <h3 className='relative text-[#133344] text-[20px]  font-bold font-pop after:absolute after:top-0.5 after:left-0 after:h-5 after:w-0.5 after:bg-comon pb-4 pl-3'>Popular properties</h3>
+                                </div>
                             </div>
                         </div>
                     </div>
